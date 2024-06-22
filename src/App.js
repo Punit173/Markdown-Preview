@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 import ReactMarkdown from "react-markdown"
 
 function App() {
-  const [markdown,setMarkdown] = useState("# Google Developer Student Clubs ")
+  const [markdown,setMarkdown] = useState("# This is a markdown preview")
   return (
     <main className='markdown'>
       <section className="markdown">
